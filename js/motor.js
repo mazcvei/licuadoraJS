@@ -1,9 +1,9 @@
 let estadoLicuadora = "apagada";
 let licuadora = document.getElementById('blender');
-let sonidoLicuadora=document.getElementById('blender-sound');
-let botonLicuadora=document.getElementById('blender-button-sound');
+let sonidoLicuadora = document.getElementById('blender-sound');
+let botonLicuadora = document.getElementById('blender-button-sound');
 
-const controlarLicuadora= ()=> {
+const controlarLicuadora = ()=> {
     if(estadoLicuadora=="apagada"){
         playLicuadora();
         estadoLicuadora="encendida";
